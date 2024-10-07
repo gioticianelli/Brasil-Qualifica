@@ -10,8 +10,16 @@
     js.src = f;
     js.async = 1;
     fjs.parentNode.insertBefore(js, fjs);
-  })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
-  Botsonic("init", {
-    serviceBaseUrl: "https://api-azure.botsonic.ai",
-    token: "5c3c3c4b-ded9-45cb-b7c8-e4bb88303aa5",
-  });
+})(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+
+// Configuração para não abrir automaticamente
+Botsonic("init", {
+  serviceBaseUrl: "https://api-azure.botsonic.ai",
+  token: "5c3c3c4b-ded9-45cb-b7c8-e4bb88303aa5",
+  autoStart: false  // Não mostrar automaticamente ao carregar a página
+});
+
+// Função para exibir o chatbot quando o usuário clicar no botão
+document.querySelector('.seu-botao-chat').addEventListener('click', function() {
+  Botsonic("show");  // Abre o chatbot quando o botão é clicado
+});
