@@ -1,0 +1,152 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset e fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #141E59;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: rgb(230, 235, 192);
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    padding: 0 4%;
+    margin-bottom: 90px;
+    max-width: 1300px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+/* Menu hamburguer escondido por padrão */
+nav .menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+/* Logo da marca */
+nav .logo a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Abril Fatface", sans-serif;
+    background: linear-gradient(90deg, #009c3b, #ffdf00, #002776);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+/* Menu de navegação */
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* Espaçamento entre os itens do menu */
+nav li {
+    padding: 0 15px;
+}
+
+/* Links de navegação */
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fdfdfd;
+}
+
+/* Efeito hover nos links */
+nav ul li a:hover {
+    color: #ffdd00cc;
+}
+
+/* Botão de login */
+nav ul button {
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+    background-color: rgba(255, 255, 255, 0.644); /* Cor de fundo */
+    border: none;
+    color: #141E59;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+/* Efeito hover no botão */
+nav ul button:hover {
+    background-color: #06ac00c2; /* Cor ao passar o mouse */
+}
+
+/* Estilo para o contêiner do texto e do botão */
+.text-bx {
+    width: 40%; /* Largura reduzida para o texto */
+    display: inline-block; /* Permitir que o vídeo fique ao lado */
+    vertical-align: top; /* Alinhar ao topo */
+}
+
+.download-container {
+    margin-top: 10px; /* Espaço entre o texto e o botão */
+}
+
+/* Estilo do botão de download */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF; /* Cor de fundo azul */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para o vídeo */
+.video-bx {
+    width: 50%; /* Largura do vídeo */
+    display: inline-block; /* Permitir que o texto fique ao lado */
+    vertical-align: top; /* Alinhar ao topo */
+}
+
+.video-bx iframe {
+    width: 70%; /* Mantém a largura do iframe */
+    height: 300px; /* Ajusta a altura do vídeo */
+    margin-left: 100px; /* Adiciona margem à esquerda se necessário */
+}
+
+.text-bx h1 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 3rem;
+    color: #002776;
+}
+
+.text-bx p {
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+    margin: 10px 0; /* Espaçamento superior e inferior */
+}
