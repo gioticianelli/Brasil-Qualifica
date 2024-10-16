@@ -1,8 +1,7 @@
 # Brasil Qualifica
 Brasil Qualifica é uma plataforma digital gratuita voltada para a qualificação profissional de jovens brasileiros entre 16 e 20 anos. Oferecemos cursos que permitem que os estudantes aprendam de forma flexível e no seu próprio ritmo. 
 
-# Link
-https://bit.ly/4dDrhRD
+#### Link: https://bit.ly/4dDrhRD
 
 # Sobre 
 O Brasil Qualifica foi um projeto desenvolvido no curso Conectadas da Reprogama. Desenvolvemos visando solucionar a ODS 4 e 8.
